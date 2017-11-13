@@ -1,0 +1,134 @@
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{
+	width: 100%;
+	box-sizing: border-box;
+	/*background:#3db35d;*/
+	text-align: center;
+	padding: 100px 0;
+}
+.main .show{
+	text-align:center;
+	width: 500px;
+	background: white;
+	margin: 0 auto;
+	/*border:1px black solid;*/
+	border-radius: 10px; 
+}
+.main .show .box{
+	width: 100%;
+	box-sizing: border-box;
+	border:1px solid yellow;
+	/*margin:100xp auto;*/
+	padding: 40px;
+	border-radius: 10px;
+}
+.box-text {
+	color: blue;
+	/*text-align: left;*/
+	background: white;
+}
+
+.box-text .text{
+	font-size: 25px;
+	/*line-height: 26px;*/
+	margin: 0;
+}
+.box-text i{
+
+}
+.name{
+	font-size: 17px;
+	text-align: right;
+}
+footer{
+	color: white;
+	background: red;
+	padding-top: 10px;
+}
+
+
+.box-in .nav{
+	width: 40px;
+	height: 40px;
+	background: green;
+	display: inline-block;
+	float: left;
+	margin-right: 3px;
+	border-radius: 3px;
+}
+.box-in .nav a{
+	display: block;
+	line-height: 40px;
+	text-decoration: none;
+	color:white;
+	
+}
+.clearall:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.but{
+	height: 40px;
+	width: 80px;
+	background: red;
+	float: right;
+	border-radius: 3px;
+}
+.box-in button{
+	height: 40px;
+	width: 80px;
+	background: rgba(0,0,0,0);
+	border-style: none;
+	color:white ;
+	cursor: pointer;
+}
+
+.A{
+	background: rgb(39, 174, 96);
+}
+.A .text,.A .name{
+	color: rgb(39, 174, 96);
+}
+.A .box-in >div{
+	background: rgb(39, 174, 96);
+}
+
+.A footer{
+	background:rgb(39, 174, 96);
+}
+
+
+.B{
+	background: rgb(52, 34, 36);
+}
+.B .text,.B .name{
+	color: rgb(52, 34, 36);
+}
+.B .box-in >div{
+	background: rgb(52, 34, 36);
+
+}
+
+.B footer{
+	background:rgb(52, 34, 36);
+}
+
+.C{
+	background: rgb(251, 105, 100);
+}
+.C .text,.C .name{
+	color: rgb(251, 105, 100);
+}
+.C .box-in >div{
+	background: rgb(251, 105, 100);
+
+}
+.C footer{
+	background: rgb(251, 105, 100);
+}
