@@ -1,0 +1,22 @@
+{
+	"盖伦":{
+			"name":"盖伦",
+			"color":"A",
+			"content":"I'm as mad as hell, and I'm not going to take this anymore!"
+			},
+	"皇子":{
+			"name":"皇子",
+			"color":"C",
+			"content":"and I'm not going to take this anymore!I'm as mad as hell, "
+			},
+	"大哥":{
+			"name":"大哥",
+			"color":"A",
+			"content":"as hell, and I'm not going to take I'm as mad this anymore!"
+			},
+	"大大哥":{
+			"name":"大大哥",
+			"color":"B",
+			"content":"Im not going 'm as mad as hell, and I'to take this anymore!"
+			}
+}
